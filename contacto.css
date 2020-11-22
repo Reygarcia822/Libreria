@@ -1,0 +1,138 @@
+body{
+
+    background: #ddd;
+
+}
+
+
+.contenedor-contacto
+{   height: 100%;
+    width: 65%;
+    background: white;
+    margin: 50px auto;
+    box-shadow: 0 0 20px #333333;
+    height: 12rem;
+}
+
+.Titulo-encabezado
+{
+
+    background: rgb(40,65,120,1);
+    color: white;
+    padding: 0.2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.contenedor-formulario
+{   
+ 
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.contenedor-label
+{
+
+    font-size: 1.2rem;
+    width: 15%;
+    margin-left: 0.3rem;
+    margin-right:0 ;
+    
+}
+
+.contenedor-input
+{
+    width: 13%;
+    height: 0.2rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0.6rem;
+    font-size: 1em;
+    padding: 0.6rem;
+  
+    
+}
+
+.contenedor-input-1
+{
+    width: 20%;
+    height: 1rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0.6rem;
+    font-size: 1em;
+    padding: 0.6rem;
+    
+}
+
+.contenedor-input-2
+{
+    width: 15%;
+    height: 0.1rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0.6rem;
+    font-size: 1em;
+    padding: 0.6rem;
+    
+}
+
+
+.contenedor-submit
+{
+    border: none;
+    background: rgb(40,65,120,1);
+    color: white;
+    padding: 0.5rem;
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+
+/*---------------------------------------------------------*/
+.contenedor-tabla
+{
+    width: 100%;
+    background: white;
+    margin: 50px auto;
+    box-shadow: 0 0 20px #333333;
+
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-auto-rows: 40px;
+}
+
+.tabla-titulo
+{
+
+    grid-column-start: 1 ;
+    grid-column-end: 7;
+    background: rgb(40,65,120,1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.tabla-cabecera, .tabla-articulo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabla-cabecera
+{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.tabla-articulo
+{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
